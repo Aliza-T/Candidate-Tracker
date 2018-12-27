@@ -1,0 +1,22 @@
+﻿<div class="row">
+    <div class="col-lg-5 col-md-offset-3">
+        <div class="well">
+
+            <form action="/home/addCandidate" method="post">
+                <input type="hidden" name="status" value = "Pending" />
+                <input type="text" name="firstname" placeholder="First Name" class="form-control">
+                <br />
+                <input type="text" name="lastname" placeholder="Last Name" class="form-control">
+                <br />
+                <input type="text" name="email" placeholder="Email" class="form-control">
+                <br />
+                <input type="text" name="number" placeholder="Phone Number" class="form-control">
+                <br />
+                <textarea name="notes" style="width:800px; height:100px" placeholder="Notes">
+</textarea>
+                <br />
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</div>
